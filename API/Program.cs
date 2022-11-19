@@ -1,4 +1,4 @@
-using API.Adapters.BitmapService;
+using API.Adapters.WebPService;
 using API.Adapters.ImageService;
 using API.Services;
 

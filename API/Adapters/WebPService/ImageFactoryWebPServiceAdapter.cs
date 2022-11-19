@@ -2,7 +2,7 @@
 using ImageProcessor;
 using ImageProcessor.Plugins.WebP.Imaging.Formats;
 
-namespace API.Adapters.BitmapService
+namespace API.Adapters.WebPService
 {
     public class ImageFactoryWebPServiceAdapter : IConvertWebPService
     {

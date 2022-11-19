@@ -2,7 +2,7 @@
 using Imazen.WebP;
 using System.Drawing;
 
-namespace API.Adapters.BitmapService
+namespace API.Adapters.WebPService
 {
     public class ImazenWebPServiceAdapter : IConvertWebPService
     {
