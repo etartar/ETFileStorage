@@ -72,8 +72,6 @@ namespace API.Adapters.ImageService
         /// parameters[0] -> directory,
         /// parameters[1] -> fileName
         /// </summary>
-        /// <param name="fileName"></param>
-        /// <param name="directory"></param>
         public void Delete(params string[] parameters)
         {
             BlobContainerClient blobContainerClient = _blobServiceClient.GetBlobContainerClient(parameters[0]);
